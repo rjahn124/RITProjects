@@ -22,11 +22,9 @@
 import java.util.*;
 import java.awt.*;
 
-public class Piece {
+public abstract class Piece {
 	
    private Color color; // the color of the piece
-   private int type; //type of piece that it is
-   private static int SINGLE = 0; // this is a single type
 
       
    /**
@@ -38,18 +36,15 @@ public class Piece {
 
 	   // set the color
 	   color = c;
-	   type = SINGLE;
    }
 
    /**
-    * 
+    * The method which is abstract
     * 
     * @return the type of the piece
     */
-   public int getType(){
-	return type;
-	   
-   }
+   abstract int getType();
+   
    /**
     * This method returns the color of this piece
     * 

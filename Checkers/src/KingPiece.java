@@ -37,5 +37,14 @@ public class KingPiece extends Piece {
 	   type = KING;
    }
    
+   /**
+    * This method returns the type of piece that this object is 
+    * 
+    * @return 1 for the king piece representation
+    */
+   public int getType() {
+  
+	   return type;
+   }
    
 }//KingPiece
