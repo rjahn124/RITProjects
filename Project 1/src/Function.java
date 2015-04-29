@@ -6,8 +6,8 @@
  * @author jordj
  *
  */
-//abstract class function is the paret function that contains evaluate, isConstant, derivative, and toString
-//whic are all abstract methods
+//abstract class function is the parent function that contains evaluate, isConstant, derivative, and toString
+//which are all abstract methods
 
 public abstract class Function {
 	
