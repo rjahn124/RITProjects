@@ -7,7 +7,7 @@
  *
  */
 
-import java.math.*;
+
 
 public class Cosine extends Function{
 	private Function value;
